@@ -21,6 +21,14 @@
                     </archive>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>ru.ifmo.HelloWorld</mainClass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
