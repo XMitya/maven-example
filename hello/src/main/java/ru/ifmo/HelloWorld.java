@@ -11,7 +11,7 @@ public class HelloWorld {
     public static void main(String[] args) {
         LOG.info("Application started");
 
-        System.out.println("Hello, Maven!");
+        System.out.printf("Hello, %s!\n", new DataSource().getData());
 
         LOG.info("Application stopped");
     }
